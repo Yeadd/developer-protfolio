@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.org{
+    color: orange;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.protfolio-style{
+    color: gray;
+    font-size: 45px;    
+    font-weight: 800;   
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+   
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    border-radius: 5px;
+    background: orange;
+    font-size:20px ;
+    font-weight: 700;
+    border: 0;
+    color: white;
+    padding: 15px 35px ;
+}
