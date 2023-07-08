@@ -2,6 +2,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .org{
     color: orange;
@@ -35,4 +36,15 @@ nav a{
     border: 0;
     color: white;
     padding: 15px 35px ;
+}
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .pp{
+    width: 400px ;
 }
