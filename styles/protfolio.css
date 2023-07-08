@@ -39,12 +39,52 @@ nav a{
 }
 .header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .pp{
-    width: 400px ;
+    width: 500px ;
+    background-position: bottom ;
+}
+.greeting{
+    font-size: 45px;
+    color: #474747;
+    margin: 0;
+}
+.title{
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-c{
+    max-width: 500px;
+}
+/* main section styles */
+
+
+/* about section styles */
+.about{
+    padding: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+.sec-t{
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.sec-des{
+    color: #181818 ;
+    text-align: center;
+    font-size: 18px;
 }
